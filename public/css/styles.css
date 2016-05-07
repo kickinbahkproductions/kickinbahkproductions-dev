@@ -93,7 +93,7 @@ pre code {
 /* ======= Header ======= */
 .header {
   padding: 10px 0;
-  background: white;
+  background: #F5F5F5;
   color: #fff;
   position: fixed;
   width: 100%;
@@ -184,7 +184,7 @@ pre code {
 }
 /* ======= Promo Section ======= */
 .promo {
-  background: white;
+  background: #F5F5F5;
   color: #0E3B66;
   padding-top: 150px;
 }
@@ -225,13 +225,8 @@ pre code {
 .promo .meta {
   margin-top: 110px;
   margin-bottom: 30px;
-  color: #0a7396;
 }
-.promo .meta li {
-  font-size: 25px;
-  margin-right: 25px;
 
-}
 .promo .call-to-action {
   background: #0c86ae;
   padding: 10px 0;
@@ -269,9 +264,21 @@ pre code {
   position: relative;
   margin-bottom: 30px;
 }
+.about .item .icon-holder-first {
+  position: absolute;
+  font-size: 24px;
+  left: 30px;
+  top: 0;
+}
+.about .item .icon-holder-second {
+  position: absolute;
+  font-size: 27px;
+  left: 40px;
+  top: -5px;
+}
 .about .item .icon-holder {
   position: absolute;
-  left: 30px;
+  left: 35px;
   top: 0;
 }
 .about .item .icon-holder .fa {
