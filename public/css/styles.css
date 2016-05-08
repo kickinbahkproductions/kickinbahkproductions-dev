@@ -45,6 +45,18 @@ a.btn {
   padding: 8px 16px;
   font-weight: bold;
 }
+.btn-lrg,
+a.btn-lrg {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  font-family: 'Montserrat', arial, sans-serif;
+  padding: 30px 50px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
 .btn .fa,
 a.btn .fa {
   margin-right: 5px;
@@ -77,8 +89,8 @@ a.btn-cta-secondary,
 }
 a.btn-cta-secondary:hover,
 .btn-cta-secondary:hover {
-  background: #0b2f51;
-  border: 1px solid #0b2f51;
+  background: #A5B4D3;
+  border: 1px solid #A5B4D3;
   color: #fff;
 }
 .text-highlight {
@@ -265,6 +277,7 @@ pre code {
   max-width: 800px;
   margin: 0 auto;
   margin-bottom: 60px;
+  font-size: 18px;
 }
 .about .item {
   position: relative;
