@@ -332,10 +332,11 @@ pre code {
 .values .values-list li {
   margin-bottom: 10px;
   color: #074f66;
-  font-size: 18px;
+  font-size: 19px;
 }
 .values .value-text {
-  color: #454ADE;
+  color: #2D60A5;
+  font-weight: 600;
 }
 .values .values-list li .fa {
   margin-right: 5px;
