@@ -174,7 +174,7 @@ pre code {
   -moz-transition: none;
   -ms-transition: none;
   -o-transition: none;
-  padding: 15px 10px;
+  padding: 15px 8px;
 }
 .header .main-nav .nav .nav-item a:hover {
   color: #074f66;
@@ -382,17 +382,19 @@ pre code {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-/* ======= License Section ======= */
-.license {
+
+/* ======= web-software Section ======= */
+
+.web-software {
   padding: 80px 0;
   background: #f5f5f5;
 }
-.license .title {
+.web-software .title {
   margin-top: 0;
   margin-bottom: 60px;
   color: #074f66;
 }
-.license .license-inner {
+.web-software .web-software-inner {
   max-width: 800px;
   background: #fff;
   padding: 30px;
@@ -406,11 +408,11 @@ pre code {
   background-clip: padding-box;
   margin: 0 auto;
 }
-.license .info {
+.web-software .info {
   max-width: 760px;
   margin: 0 auto;
 }
-.license .cta-container {
+.web-software .cta-container {
   max-width: 540px;
   margin: 0 auto;
   margin-top: 60px;
@@ -423,7 +425,7 @@ pre code {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-.license .cta-container .speech-bubble {
+.web-software .cta-container .speech-bubble {
   background: #d6f3fc;
   color: #074f66;
   padding: 30px;
@@ -438,7 +440,7 @@ pre code {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-.license .cta-container .speech-bubble:after {
+.web-software .cta-container .speech-bubble:after {
   position: absolute;
   left: 50%;
   bottom: -10px;
@@ -451,13 +453,13 @@ pre code {
   border-right: 10px solid transparent;
   border-top: 10px solid #d6f3fc;
 }
-.license .cta-container .icon-holder {
+.web-software .cta-container .icon-holder {
   margin-bottom: 15px;
 }
-.license .cta-container .icon-holder .fa {
+.web-software .cta-container .icon-holder .fa {
   font-size: 56px;
 }
-.license .cta-container .intro {
+.web-software .cta-container .intro {
   margin-bottom: 30px;
 }
 /* ======= Contact Section ======= */
