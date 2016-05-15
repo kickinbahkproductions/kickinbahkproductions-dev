@@ -205,6 +205,11 @@ pre code {
   color: #074f66;
   margin-top: 0;
 }
+.promo .title {
+  font-size: 82px;
+  color: #074f66;
+  margin-top: 0;
+}
 .promo .title .highlight {
   color: #A5B4D3;
 }
@@ -504,7 +509,7 @@ pre code {
     margin-bottom: 30px;
   }
   .promo .title {
-    font-size: 66px;
+    font-size: 64px;
   }
   .promo .meta {
     margin-top: 60px;
