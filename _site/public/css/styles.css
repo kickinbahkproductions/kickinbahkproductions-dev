@@ -405,12 +405,12 @@ pre code {
 }
 .buildfire-plugins .plugin {
   height: 800px;
+  width: 400px;
   margin-bottom: 60px;
 }
 .buildfire-plugins .ifm {
   height: 680px;
   width: 383px;
-  margin: 0 auto;
 }
 
 
@@ -519,6 +519,17 @@ pre code {
     display: block;
     margin-bottom: 5px;
   }
+  .buildfire-plugins .plugin {
+    height: 300px;
+  }
+  .buildfire-plugins .plugin .ifm {
+    visibility: hidden;
+    height: 0;
+  }
+  .buildfire-plugins .plugin .btn {
+    visibility: visible;
+    margin: 0 auto;
+  }
   .contact .author-message {
     text-align: center;
   }
@@ -539,5 +550,10 @@ pre code {
   }
 }
 /* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .buildfire-plugins .plugin .btn {
+    visibility: hidden;
+  }
+}
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
