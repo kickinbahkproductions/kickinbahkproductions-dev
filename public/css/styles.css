@@ -395,7 +395,6 @@ pre code {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  margin: 0 auto;
 }
 .buildfire-plugins .buildfire-plugins-inner .title {
   color: #074f66;
@@ -405,12 +404,13 @@ pre code {
 }
 .buildfire-plugins .plugin {
   height: 800px;
-  width: 400px;
   margin-bottom: 60px;
+  max-width: 760px;
 }
 .buildfire-plugins .ifm {
   height: 680px;
   width: 383px;
+  margin-top: 30px;
 }
 
 
@@ -493,6 +493,7 @@ pre code {
 .footer .fa-heart {
   color: #fb866a;
 }
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .header .main-nav button {
@@ -520,15 +521,15 @@ pre code {
     margin-bottom: 5px;
   }
   .buildfire-plugins .plugin {
-    height: 300px;
+    height: 20px;
   }
   .buildfire-plugins .plugin .ifm {
     visibility: hidden;
     height: 0;
   }
-  .buildfire-plugins .plugin .btn {
+  .buildfire-plugins .btn {
     visibility: visible;
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
   }
   .contact .author-message {
     text-align: center;
@@ -551,8 +552,11 @@ pre code {
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .buildfire-plugins .plugin .btn {
+  .buildfire-plugins .btns .btn {
     visibility: hidden;
+    height: 0;
+    margin: 0;
+    padding: 0;
   }
 }
 /* Medium devices (desktops, 992px and up) */
