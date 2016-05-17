@@ -14,6 +14,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.site-wrapper {
+  overflow-x: hidden;
+}
 h1,
 h2,
 h3,
@@ -496,9 +499,6 @@ pre code {
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
-  body {
-    overflow: hidden;
-  }
   .header .main-nav button {
     margin-right: 0;
   }
@@ -555,9 +555,6 @@ pre code {
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  body {
-    overflow: hidden;
-  }
   .buildfire-plugins .btns .btn {
     visibility: hidden;
     height: 0;
