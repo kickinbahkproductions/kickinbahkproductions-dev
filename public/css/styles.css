@@ -280,35 +280,44 @@ pre code {
   margin-bottom: 60px;
   font-size: 18px;
 }
-.about .item {
+/* ====== Offer Section ====== */
+.offer {
+  background: #F5F5F5;
+  padding: 80px 0;
+}
+.offer .title {
+  color: #074f66;
+  margin-bottom: 40px;
+}
+.offer .item {
   position: relative;
   margin-bottom: 30px;
 }
-.about .item .icon-holder-first {
+.offer .item .icon-holder-first {
   position: absolute;
   font-size: 24px;
   left: 30px;
   top: 0;
 }
-.about .item .icon-holder-second {
+.offer .item .icon-holder-second {
   position: absolute;
   font-size: 27px;
   left: 40px;
   top: -5px;
 }
-.about .item .icon-holder {
+.offer .item .icon-holder {
   position: absolute;
   left: 35px;
   top: 0;
 }
-.about .item .icon-holder .fa {
+.offer .item .icon-holder .fa {
   font-size: 24px;
   color: #074f66;
 }
-.about .item .content {
+.offer .item .content {
   padding-left: 60px;
 }
-.about .item .content .sub-title {
+.offer .item .content .sub-title {
   margin-top: 0;
   color: #074f66;
   font-size: 18px;
@@ -374,44 +383,6 @@ pre code {
   color: #074f66;
   font-size: 16px;
 }
-
-/* ======= buildfire-plugins Section ======= */
-
-.buildfire-plugins {
-  padding: 80px 0;
-  background: #f5f5f5;
-}
-.buildfire-plugins .buildfire-plugins-inner {
-  max-width: 1200px;
-  background: #fff;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-.buildfire-plugins .buildfire-plugins-inner .title {
-  color: #074f66;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  padding-top: 30px;
-}
-.buildfire-plugins .plugin {
-  height: 800px;
-  margin-bottom: 60px;
-  max-width: 760px;
-}
-.buildfire-plugins .ifm {
-  height: 680px;
-  width: 383px;
-  margin-top: 30px;
-  border: solid black 14px;
-  border-radius: 5%;
-}
-
 
 /* ======= Contact Section ======= */
 .contact {
