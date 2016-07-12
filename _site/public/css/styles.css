@@ -331,6 +331,7 @@ pre code {
 }
 .values .title {
   color: #074f66;
+  font-size: 40px;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -355,13 +356,14 @@ pre code {
   background: #f5f5f5;
 }
 .web-software .title {
+  font-size: 40px;
   margin-top: 0;
   margin-bottom: 60px;
   color: #074f66;
 }
 .web-software .web-software-inner {
   max-width: 1200px;
-  background: #fff;
+  background: #f5f5f5;
   padding: 30px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -382,7 +384,7 @@ pre code {
 .web-software-content {
   margin: 0 auto;
   color: #074f66;
-  font-size: 16px;
+  font-size: 18px;
 }
 /* ======= Contact Section ======= */
 .contact {
@@ -398,6 +400,7 @@ pre code {
   color: #074f66;
   margin-top: 0;
   margin-bottom: 30px;
+  font-size: 40px;
 }
 .contact .intro {
   margin-bottom: 60px;
