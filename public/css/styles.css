@@ -10,7 +10,7 @@
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #444444;
-  font-size: 16px;
+  font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -252,7 +252,7 @@ pre code {
   color: #074f66;
   margin-top: 0;
   margin-bottom: 30px;
-  font-size: 35px;
+  font-size: 40px;
 }
 .about .title {
   color: #074f66;
@@ -287,11 +287,12 @@ pre code {
 }
 .offer .title {
   color: #074f66;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  font-size: 40px;
 }
 .offer .item {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .offer .item .icon-holder-first {
   position: absolute;
