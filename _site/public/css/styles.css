@@ -251,11 +251,12 @@ pre code {
   color: #074f66;
   margin-top: 0;
   margin-bottom: 30px;
-  font-size: 40px;
+  font-size: 35px;
 }
 .about .title {
   color: #074f66;
-  margin-top: 70px;
+  font-weight: normal;
+  font-size: 22px;
   margin-bottom: 30px;
 }
 .about .container .profile {
@@ -273,21 +274,21 @@ pre code {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-.about .intro {
-  max-width: 800px;
-  margin: 0 auto;
-  margin-bottom: 60px;
-  font-size: 20px;
+.about .package {
+  margin-top: 40px;
+}
+.about .pricing {
+  font-size: 15px;
 }
 /* ====== Offer Section ====== */
 .offer {
-  background: #A5B4D3;
+  background: #f5f5f5;
   padding: 80px 0;
 }
 .offer .title {
   color: #074f66;
   margin-bottom: 50px;
-  font-size: 40px;
+  font-size: 35px;
 }
 .offer .item {
   position: relative;
@@ -316,11 +317,14 @@ pre code {
 }
 .offer .item .content {
   padding-left: 60px;
-}
-.offer .item .content .sub-title {
   margin-top: 0;
   color: #074f66;
-  font-size: 18px;
+  font-size: 24px;
+}
+.offer .sub-title {
+  margin-top: 0;
+  color: #074f66;
+  font-size: 26px;
 }
 
 /* ======= Values Section ======= */
@@ -332,14 +336,14 @@ pre code {
 }
 .values .title {
   color: #074f66;
-  font-size: 40px;
+  font-size: 35px;
   margin-top: 0;
   margin-bottom: 30px;
 }
 .values .values-list li {
   margin-bottom: 10px;
   color: #074f66;
-  font-size: 19px;
+  font-size: 24px;
 }
 .values .value-text {
   color: #2D60A5;
