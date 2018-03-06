@@ -196,7 +196,10 @@ pre code {
 /* ======= Promo Section ======= */
 
 .promo {
-  background: #F5F5F5;
+  background-image: url(../images/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 775px;
   color: #0E3B66;
   padding-top: 150px;
 
@@ -208,10 +211,15 @@ pre code {
 .promo .title .highlight {
   color: #A5B4D3;
 }
+.promo .title-bottom {
+  margin-left: 100px;
+}
 .promo .intro {
-  font-size: 30px;
+  background-color: rgba(7, 79, 102, 0.5);
+  font-size: 40px;
+  border-radius: 5%;
   max-width: 680px;
-  margin: 50px auto 30px auto;
+  color: #f5f5f5;
 }
 .promo .btns .btn {
   margin-right: 15px;
@@ -283,7 +291,7 @@ pre code {
 /* ====== Offer Section ====== */
 .offer {
   background: #f5f5f5;
-  padding: 80px 0;
+  padding: 40px 0;
 }
 .offer .title {
   color: #074f66;
@@ -316,7 +324,6 @@ pre code {
   color: #074f66;
 }
 .offer .item .content {
-  padding-left: 60px;
   margin-top: 0;
   color: #074f66;
   font-size: 24px;
@@ -410,7 +417,7 @@ pre code {
   font-size: 40px;
 }
 .contact .intro {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 .contact .info .sub-title {
   color: #074f66;
@@ -459,6 +466,21 @@ pre code {
   text-align: center;
   padding: 0;
 }
+.contact input.email {
+  width: 100%;
+  padding: 8px 30px;
+  text-align: center;
+  color: #074f66;
+}
+
+.contact input.btns.btn {
+  width: 100%;
+  margin-top: 20px;
+  background: #074f66;
+  font-size: 18px;
+  padding: 18px 30px;
+  color:  #fff;
+}
 /* ======= Footer ======= */
 .footer {
   padding: 15px 0;
@@ -483,22 +505,8 @@ pre code {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .promo .btns .btn {
-    margin-right: 0;
-    clear: both;
-    display: block;
-    margin-bottom: 30px;
-  }
   .promo .title {
     font-size: 60px;
-  }
-  .promo .meta {
-    margin-top: 60px;
-  }
-  .promo .meta li {
-    float: none;
-    display: block;
-    margin-bottom: 5px;
   }
   .contact .author-message {
     text-align: center;
@@ -520,12 +528,23 @@ pre code {
   }
 }
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .buildfire-plugins .btns .btn {
-    visibility: hidden;
-    height: 0;
-    margin: 0;
-    padding: 0;
+@media (max-width: 768px) {
+  .promo {
+    background-image: url(../images/header-mobile.jpg);
+    background-position: center;
+  }
+  .promo .title {
+    color: #0E3B66;
+    font-size: 40px;
+    text-shadow: -1px 0 #0E3B66, 0 1px black, 1px 0 black, 0 -1px #0E3B66;
+    margin-top: 10px
+  }
+  .promo .highlight {
+    text-shadow: none;
+  }
+
+  .promo .intro {
+    font-size: 30px;
   }
 }
 /* Medium devices (desktops, 992px and up) */
