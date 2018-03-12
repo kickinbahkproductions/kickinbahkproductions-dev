@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 700;
   color: #17baef;
 }
@@ -205,6 +205,7 @@ pre code {
 
 }
 .promo .title {
+  font-family: 'Montserrat', sans-serif;
   font-size: 86px;
   color: #074f66;
 }
