@@ -467,20 +467,9 @@ pre code {
   text-align: center;
   padding: 0;
 }
-.contact input.email {
-  width: 100%;
-  padding: 8px 30px;
-  text-align: center;
-  color: #074f66;
-}
-
-.contact input.btns.btn {
-  width: 100%;
-  margin-top: 20px;
-  background: #074f66;
-  font-size: 18px;
-  padding: 18px 30px;
-  color:  #fff;
+.subscribe_button.ck_subscribe_button.btn.fields {
+  background-color: #074f66;
+  color: #fff;
 }
 /* ======= Footer ======= */
 .footer {
