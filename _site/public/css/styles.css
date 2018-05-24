@@ -18,10 +18,10 @@ h5,
 h6 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
-  color: #17baef;
+  color: #0E3B66;
 }
 a {
-  color: #17baef;
+  color: #0E3B66;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -494,6 +494,13 @@ pre code {
   color: #fb866a;
 }
 
+.footer-resources {
+  float: right;
+}
+.footer-resources a {
+  color: #17baef;
+}
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .header .main-nav button {
@@ -547,6 +554,40 @@ pre code {
 }
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
+
+.blog-heading {
+  text-align: center;
+  margin-top: 150px;
+}
+#wrap {
+  background-color: #F5F5F5;
+}
+.blog-post {
+  margin-top: 120px;  
+}
+.blog-title h4 {
+  color: #17baef;
+}
+.blogpost p {
+  color: #0E3B66;  
+}
+.post-title a {
+  color: #0E3B66;
+}
+.panel-default {
+  border: none;
+}
+.panel {
+  background-color: #F5F5F5;
+}
+.panel-body {
+  padding-left: 0px;
+}
+.related-posts h5, 
+.related-posts h6, 
+.related-posts a {
+  color: #0E3B66;
+}
 
 
 /* Convert Kit Forms */
