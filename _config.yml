@@ -10,3 +10,4 @@ safe: true
 
 url: http://kickinbahkproductions.github.io
 future: true 
+destination: ../kickinbahk-productions-gen
