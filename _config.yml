@@ -1,0 +1,12 @@
+# top level stuff you probably don't need to touch
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+paginate: 5
+plugins: [jekyll-paginate, jekyll-sitemap]
+port: 4000
+safe: true
+
+url: http://kickinbahkproductions.github.io
+future: true 
