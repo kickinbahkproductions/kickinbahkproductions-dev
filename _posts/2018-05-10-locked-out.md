@@ -4,7 +4,7 @@ title: Locked out
 date: 2018-05-10
 tags:
 - Ecommerce
-- Life Stories
+- Life/Ecommerce Parallels
 
 ---
 

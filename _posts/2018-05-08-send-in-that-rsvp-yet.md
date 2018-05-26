@@ -4,6 +4,7 @@ title: Send in that RSVP yet?
 tags:
 - Ecommerce
 - Conversions
+- Life/Ecommerce Parallels
 
 ---
 

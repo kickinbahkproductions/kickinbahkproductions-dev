@@ -2,7 +2,7 @@
 layout: post
 title: How many will be attending?
 tags:
-- Life Stories
+- Life/Ecommerce Parallels
 
 ---
 
@@ -19,5 +19,3 @@ Even RSVPs to an event smaller than a wedding still cause me to freak out a bit.
 Being on the ‘sending’ end, I remember trying to get those RSVPs back from people were so difficult. We had to chase down responses and yet when it came down to our actual wedding reception, we had about 50 people not show up. Yeah, there were some leftovers!
 
 So why do RSVPs convert so poorly? They are often events for people we know or causes we support, but there is still a challenge. I’ll send you some thoughts on that tomorrow.
-
-<br>

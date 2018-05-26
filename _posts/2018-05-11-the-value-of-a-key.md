@@ -4,7 +4,7 @@ title: The Value of a Key
 date: 2018-05-11
 tags:
 - Ecommerce
-- Life Stories
+- Life/Ecommerce Parallels
 - Customer Interview Reasons
 
 ---
