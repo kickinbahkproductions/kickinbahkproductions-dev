@@ -8,6 +8,6 @@ plugins: [jekyll-paginate, jekyll-sitemap]
 port: 4000
 safe: true
 
-url: http://kickinbahkproductions.github.io
+url: https://kickinbahkproductions.github.io
 future: true 
 destination: ../kickinbahk-productions-gen
