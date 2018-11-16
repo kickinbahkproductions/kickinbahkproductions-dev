@@ -532,6 +532,20 @@ pre code {
     font-size: 18px;
   }
 }
+@media (min-width: 1700px) {
+  .promo {
+    height: 1000px;
+    padding-top: 250px;
+  }    
+}
+@media (min-width: 2100px) {
+  .promo {
+    height: 1200px;
+    padding-top: 350px;
+  }    
+}
+
+
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) {
   .promo {
